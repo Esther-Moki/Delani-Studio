@@ -1,0 +1,13 @@
+.top-part{
+  margin-top: 3%;
+  background: url(/assets/h_img.jpg);
+  background-size: cover;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 3%;
+}
+.intro{
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align:center ;
+}
