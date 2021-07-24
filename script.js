@@ -34,27 +34,42 @@ $(document).ready(function(){
   });
 });
 
-// $(document).ready(function(){
-//   $("#empty1").hover(function(){
-//     $(".overlay").css("opacity,1");  
 
+
+// $(document).ready(function() {
+  
+//   $(".empty1").mouseenter  (function(){
+//    $(".overlay").css("opacity","0.1");
 //   });
-// });
+  
+//   $(".empty1").mouseleave(function(){
+//    $(".overlay").css("opacity","0");
+//      });
+  
+//   });
 
 $(document).ready(function() {
   
-  $(".empty1").mouseenter  (function(){
-   $(".overlay").css("opacity","0.1");
+  $(".firstpart").mouseenter  (function(){
+   $(".overlayfive").css("opacity","0.6");
   });
   
-  $(".empty1").mouseleave(function(){
-   $(".overlay").css("opacity","0");
+  $(".firstpart").mouseleave(function(){
+   $(".overlayfive").css("opacity","0");
      });
   
   });
-
-
-
+  $(document).ready(function() {
+  
+    $(".secondpart").mouseenter  (function(){
+     $(".overlaysix").css("opacity","0.6");
+    });
+    
+    $(".secondpart").mouseleave(function(){
+     $(".overlaysix").css("opacity","0");
+       });
+    
+    });
 
 
 // $(document).ready(function(){

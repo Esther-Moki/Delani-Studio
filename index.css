@@ -84,7 +84,7 @@
   margin-bottom: 2%; 
 }
  #camone{
-  width:115%;
+  /* width:100%; */
 }
 #camtwo{
   margin-left: 20px;
@@ -111,12 +111,10 @@
 
 
 }
-
-/* #camone,#camtwo{
-  display: block;
-  width: 80% ;
-} */
-.overlay{
+.firstpart{
+  position: relative;
+}
+.overlayfive{
   position: absolute;
   top: 0;
   left: 0;
@@ -129,20 +127,65 @@
   justify-content: center;
   opacity: 0;
   color:#000000;
+} 
+.secondpart{
+  position: relative;
 }
+.overlaysix{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color:#000000;
+} 
+
+/* #camone,#camtwo{
+  display: block;
+  width: 80% ;
+} */
+ .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0; */
+  color:#000000;
+} 
 .juice{
   font-size: 20px;
   font-weight: bold;
 } 
 /* ------------------------------- */
 .partTwo{
-  /* margin-right: 10%; */
-  /* margin-left: 10%; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  width: 84%;
+  justify-content: space-evenly;
+  margin-right: 8%;
+  margin-left: 8%;
   /* max-width:80% ; */
   /* display: flex; */
-  /* margin-bottom: 4%; */
+  margin-bottom: 4%;
   }   
 
+  #camfive,#camsix,#camseven,#cameight{
+  width: 220px;
+  /* margin-left:5% ; */
+  }
 
 
 
