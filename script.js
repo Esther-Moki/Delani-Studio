@@ -30,7 +30,7 @@ $(document).ready(function(){
  });
 });
 
-//end of the function//
+//end of the what we do toggle function//
 
 //beginning of jquery hover effect on the portfolio part//
 $(document).ready(function() {
@@ -98,8 +98,10 @@ $(document).ready(function() {
      });
 });
 
-
 //end of jquery hover effect on the portfolio part//
+
+//form validation for the contact us part
+
 
 
 

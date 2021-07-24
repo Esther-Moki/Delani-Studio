@@ -139,7 +139,7 @@ h5{
 }
 /******************************* end of portfolio part *********************************/
 
-/*  */
+/****************************** beginning of contact us part ************************/
 footer{
   background: url(/assets/c_image.jpg);
   background-size: cover;
@@ -164,3 +164,4 @@ textarea{
   text-align: center;
   padding-bottom: 3%;
 }
+/******************************* end of contact us part *********************************/
