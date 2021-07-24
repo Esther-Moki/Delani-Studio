@@ -34,13 +34,24 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $("#camone").hover(function(){
-    $(rgba(0,0,0,0.7));
+// $(document).ready(function(){
+//   $("#empty1").hover(function(){
+//     $(".overlay").css("opacity,1");  
+
+//   });
+// });
+
+$(document).ready(function() {
+  
+  $(".empty1").mouseenter  (function(){
+   $(".overlay").css("opacity","0.1");
   });
-});
-
-
+  
+  $(".empty1").mouseleave(function(){
+   $(".overlay").css("opacity","0");
+     });
+  
+  });
 
 
 

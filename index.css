@@ -74,24 +74,80 @@
 
 
 .portfolioPics{
-  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 3%; */
   margin-right: 10%;
   margin-left: 10%;
-  max-width:80% ;
-  display: flex;
-  margin-bottom: 2%;
+  /* display: flex; */
+  max-width: 80%;
+  margin-bottom: 2%; 
 }
-.partTwo{
+ #camone{
+  width:115%;
+}
+#camtwo{
+  margin-left: 20px;
+  width:77%;
+}
+#camthree{
+  margin-left: -40px;
+  width:91%;
+}
+#camfour{
+  margin-left:-52px ;
+  width:94%;
+} 
+/* .partTwo{
   margin-right: 10%;
   margin-left: 10%;
   max-width:80% ;
   display: flex;
   margin-bottom: 4%;
-  }  
-.camone{
- position: relative;
+  }   */
+
+.empty1{ 
+  position: relative;
+
 
 }
+
+/* #camone,#camtwo{
+  display: block;
+  width: 80% ;
+} */
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color:#000000;
+}
+.juice{
+  font-size: 20px;
+  font-weight: bold;
+} 
+/* ------------------------------- */
+.partTwo{
+  /* margin-right: 10%; */
+  /* margin-left: 10%; */
+  /* max-width:80% ; */
+  /* display: flex; */
+  /* margin-bottom: 4%; */
+  }   
+
+
+
+
+
+
 
 
 
