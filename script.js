@@ -140,28 +140,10 @@ $(document).ready(function() {
 
 
 
-// $(document).ready(function(){
-//   $("#picone").click(function(){
-//     if( $("#potato").toggle()){
-//       $("#picone").hide();
-  
-
-    
-//   });
-// });
 
 
 
-// $(document).ready(function() {
-//   $("p","img").click(function() {
-//     $("img").show();
-//   });
-// });
 
 
-// $(document).ready(function() {
-//   $("p").click(function() {
-//     $(".walrus-showing").toggle();
-//     $(".walrus-hidden").toggle();
-//   });
-// });
+
+
