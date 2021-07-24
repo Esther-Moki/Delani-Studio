@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
-  <link rel="stylesheet" href="script.js">
+  <script src="script.js"></script> 
 
 </head>
 <body>
@@ -57,38 +57,38 @@
       <div class="elements">
 
         <div class="elementOne">
-          <img src="/services_icons/dev_icon.png" alt="" srcset="" class="picone">
-          <div class="potato"></div>
+          <img src="/services_icons/dev_icon.png" alt="" srcset="" id="picone">
+          <div id="potato">
             <h4>DESIGN</h4>
       
             <p>
-            Our design practise offers a full range of services<br>including brand stategy,interaction and visual 
-            design<br>and user experience testing.
+             Our design practise offers a full range of services<br>including brand stategy,interaction and visual 
+             design<br>and user experience testing.
             </p>
             <p>
               Throughout your project,our designers create and <br>implement visual design and workflows,solicit user<br>
-              feedeback and work with you to make sure what gets built <br>is what is needed. 
+              feedback and work with you to make sure what gets built <br>is what is needed. 
            </p>
          </div>
        </div>
 
         <div class="elementTwo">
-          <img src="/services_icons/dev_icon.png" alt="" srcset="">
-          <div class="chips">
+          <img src="/services_icons/dev_icon.png" alt="" srcset="" id="pictwo">
+          <div id="chips">
             <h4>DEVELOPMENT</h4>
             <p>
               All engineers are fluent in the latest enterprise ,mobile<br>and web development technologies.<br>
             </p>
             <p>
-            They collaborate with your team to write,and improve<br>code on a daily basis,using proven practices 
-            such as <br>test-driven development and pair programming. 
+             They collaborate with your team to write,and improve<br>code on a daily basis,using proven practices 
+             such as <br>test-driven development and pair programming. 
            </p>
          </div> 
        </div>
 
         <div class="elementThree">
-          <img src="/services_icons/product_icon.png" alt="" srcset="">
-          <div class="fries"></div>
+          <img src="/services_icons/product_icon.png" alt="" srcset="" id="picthree"> 
+          <div id="fries">
             <h4>PRODUCT MANAGEMENT</h4>
             <p>
               Planning and development is iterative.Because we are<br>constantly coding and testing,the products we 
@@ -107,7 +107,16 @@
   <div class="portfolio">
     <h4>PORTFOLIO</h4>
     <div class="portfolioPics">
-      <img src="/portfolio/work4.jpg" alt="" srcset="" width="25%"  style="padding-right: 2%;">
+      <div class="empty1">
+        <img src="/portfolio/work4.jpg" alt="" srcset="" width="25%"  style="padding-right: 2%;" id="camone"> 
+        <div class="overlay">
+          <h2>ANITAS</h2>
+          <p>
+           Here we have Anitas Kitchen.
+          </p>
+        </div>
+      </div>
+
       <img src="/portfolio/work3.jpg" alt="" srcset="" width="25%" style="padding-right: 2%;">
       <img src="/portfolio/work2.jpg" alt="" srcset="" width="25%" style="padding-right: 2%;">
       <img src="/portfolio/work1.jpg" alt="" srcset="" width="25%" style="padding-right: 2%;">
