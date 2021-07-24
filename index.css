@@ -68,31 +68,79 @@
   display: none;
 }
 /*******************************end of what we do part **********************************/
-
-
-
-
-
 .portfolio{
   text-align: center;
 }
-
-
-
-
 .portfolioPics{
   display: flex;
   flex-direction: row;
-  /* margin-top: 3%; */
-  margin-right: 10%;
-  margin-left: 10%;
-  /* display: flex; */
-  max-width: 80%;
-  margin-bottom: 2%; 
+  width: 84%;
+  justify-content: space-evenly;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+}  
+h5{
+  font-weight: bold;
 }
- #camone{
+.juice{
+  font-size: 20px;
+  font-weight: bold;
+} 
+#camone,#camtwo,#camthree,#camfour{
+    width: 230px;
+}
+.empty1,.empty2,.empty3,.empty4{
+  position: relative;
+}
+.overlayone,.overlaytwo,.overlaythree,.overlayfour{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#ffffff;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color:#000000;
+  padding-top: 22%;
+} 
+.partTwo{
+  display: flex;
+  flex-direction: row;
+  width: 84%;
+  justify-content: space-evenly;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+}  
+#camfive,#camsix,#camseven,#cameight{
+   width: 230px;
+}
+.firstpart,.secondpart,.thirdpart,.fourthpart{
+  position: relative;
+}
+.overlayfive,.overlaysix,.overlayseven,.overlayseven,.overlayeight{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color:#000000;
+} 
+
+
+ /* #camone{
   /* width:100%; */
-}
+/* }
 #camtwo{
   margin-left: 20px;
   width:77%;
@@ -104,7 +152,7 @@
 #camfour{
   margin-left:-52px ;
   width:94%;
-} 
+}  */
 /* .partTwo{
   margin-right: 10%;
   margin-left: 10%;
@@ -112,12 +160,12 @@
   display: flex;
   margin-bottom: 4%;
   }   */
-
+/* 
 .empty1{ 
   position: relative;
 
 
-}
+} */ */
 .firstpart{
   position: relative;
 }
@@ -179,13 +227,10 @@
 .partTwo{
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
   width: 84%;
   justify-content: space-evenly;
   margin-right: 8%;
   margin-left: 8%;
-  /* max-width:80% ; */
-  /* display: flex; */
   margin-bottom: 4%;
   }   
 
