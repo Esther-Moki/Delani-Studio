@@ -1,3 +1,4 @@
+//what we do toggle function//
 $(document).ready(function(){
   $("#picone").click(function(){
     $("#potato").toggle();
@@ -6,10 +7,8 @@ $(document).ready(function(){
     $("#picone").show();
     $("#potato").hide();
     });
-   
   });
 });
-
 $(document).ready(function(){
   $("#pictwo").click(function(){
     $("#chips").toggle();
@@ -18,10 +17,8 @@ $(document).ready(function(){
     $("#pictwo").show();
     $("#chips").hide();
     });
-   
   });
 });
-
 $(document).ready(function(){
   $("#picthree").click(function(){
     $("#fries").toggle();
@@ -30,10 +27,15 @@ $(document).ready(function(){
     $("#picthree").show();
     $("#fries").hide();
     });
-   
-  });
+ });
 });
 
+
+
+
+
+
+//end of the function//
 
 
 // $(document).ready(function() {
