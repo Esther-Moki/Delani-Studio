@@ -103,7 +103,8 @@ $(document).ready(function() {
 //form validation for the contact us part
  function validate(){
    var nameInput=document.getElementById("username").value;
-   var emailInput=document.getElementById("useremail").value
+   var emailInput=document.getElementById("useremail").value;
+   var form=document.getElementById("form");
  }
 
 
@@ -116,20 +117,7 @@ $(document).ready(function() {
 
 
 
-// $(document).ready(function(){
-//   $("#picone").click(function(){
-//     if($("#potato").toggle()){
-//       $("#picone").hide();
-//     }
-//     else{
-//       $ ("#potato").click(function(){
-//         $("#picone").toggle();
-//         $("potato").hide();
 
-//       });
-//     }
-//   });
-// });
 
 
 
