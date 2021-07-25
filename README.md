@@ -1,11 +1,10 @@
 # DELANI STUDIO
+This project happens to be a portfolio about DELANI STUDIO,a software development company,highlighting web development services offered at the company. 
 
-#### This project happens to be a portfolio about DELANI STUDIO,a software development company,highlighting web development services offered. 
+By Esther Moki
 Date of current version:25/07/2021
 
-#### Done by Esther Moki
-
-## Description
+Description
 This project happens to be a portfolio about DELANI STUDIO-a software development company-that best describes their web development work,among other web design development services offered. 
 
 ## Setup/Installation Requirement

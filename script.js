@@ -105,14 +105,8 @@ $(document).ready(function() {
    var nameInput=document.getElementById("username").value;
    var emailInput=document.getElementById("useremail").value;
    var form=document.getElementById("form");
+
  }
-
-
-
-
-
-;
-
 
 
 
