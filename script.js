@@ -101,13 +101,16 @@ $(document).ready(function() {
 //end of jquery hover effect on the portfolio part//
 
 //form validation for the contact us part
+ function validate(){
+   var nameInput=document.getElementById("username").value;
+   var emailInput=document.getElementById("useremail").value
+ }
 
 
 
 
 
-
-
+;
 
 
 
