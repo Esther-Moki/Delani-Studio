@@ -164,11 +164,19 @@ input{
   background: none;
   padding: 7px;
   width: 360px;
-  color: #ffffff;
+  color: #ffffff !important;
 }
-textarea{
+label{
+  display: block;
+  margin-right: 540px;
+}
+#usertext{
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 100px;
   background: none;
   color: #ffffff;
+  margin-bottom: 2%;
 }
 .social{
   text-align: center;

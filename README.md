@@ -27,6 +27,5 @@ Languages used include:
 If you run into any issues or have questions, ideas,concerns or even want to make a contribution to the code,you can drop me an email on esthermoki@student.moringaschool.com.
 
 ### License
-https://github.com/Esther-Moki/Delani-Studio/blob/master/LICENSE
-*{This document comes with <a href="https://github.com/Esther-Moki/Delani-Studio/blob/master/LICENSE" target="_blank">MIT Licence</a> . Find the License document attached to it to learn more about it}*
-Copyright (c) [2021] [Esther Moki]}*
+This document comes with <a href="https://github.com/Esther-Moki/Delani-Studio/blob/master/LICENSE" target="_blank">MIT Licence</a> . Find the License document attached to it to learn more about it.
+* Copyright (c) [2021] [Esther Moki]

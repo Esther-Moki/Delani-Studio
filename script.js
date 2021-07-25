@@ -100,7 +100,7 @@ $(document).ready(function() {
 
 //end of jquery hover effect on the portfolio part//
 
-//form validation for the contact us part
+//beginning of form validation for the contact us part//
  function validate(){
    var nameInput=document.getElementById("username");
    var emailInput=document.getElementById("useremail");
@@ -124,22 +124,14 @@ $(document).ready(function() {
     } 
     alert("Dear "+nameInput.value+"\n Your message has been received.");
 
-   
- 
-    
 }
-    
+
+//end of form validation for the contact us part//
 
  
 
 
- //if(d==5 && gender=="female"){
-  //window.alert("Dear "+uname+"\n Your Akan name is "+gfemale[5]+" you were born on a"+days[5]);
- // return false;
- //if(d==6 && gender=="female"){
- // window.alert("Dear "+uname+"\n Your Akan name is "+gfemale[6]+" you were born on a"+days[6]);
- // return false;
-//}alert('Invalid')
+ 
 
 
 
