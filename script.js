@@ -110,20 +110,16 @@ $(document).ready(function() {
   if(nameInput.value==""){
     alert("Please write your name");
     return false;
-   }
-   
-
+   } 
  if(emailInput.value==""){
   alert("Please write your email");
   return false;
   }
-  
   if(userInput.value==""){
     alert("Please write your message");
     return false;
     } 
     alert("Dear "+nameInput.value+"\n Your message has been received.");
-
 }
 
 //end of form validation for the contact us part//
