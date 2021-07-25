@@ -4,7 +4,7 @@
 /********************** beginning of top part *****************************/
 .top-part{
   margin-top: 3%;
-  background: url(/assets/h_img.jpg);
+  background: url(./assets/h_img.jpg);
   background-size: cover;
   color: #ffffff;
   margin-bottom: 3%;
@@ -38,7 +38,7 @@
 
 /*********************************** start of services part ************************/
 .services{
-  background: url(/assets/s_image.jpg);
+  background: url(./assets/s_image.jpg);
   color: #ffffff;
 }
 .middle{
@@ -144,7 +144,7 @@ h5{
 
 /****************************** beginning of contact us part ************************/
 footer{
-  background: url(/assets/c_image.jpg);
+  background: url(./assets/c_image.jpg);
   background-size: cover;
   padding-top: 4%;
   color: #ffffff;
@@ -165,6 +165,7 @@ input{
   padding: 7px;
   width: 360px;
   color: #ffffff !important;
+  border:3px solid #ffffff;
 }
 label{
   display: block;
@@ -175,8 +176,9 @@ label{
   padding-right: 350px;
   padding-bottom: 100px;
   background: none;
-  color: #ffffff;
+  border: 3px solid #ffffff;
   margin-bottom: 2%;
+  color: #000000;
 }
 .social{
   text-align: center;
