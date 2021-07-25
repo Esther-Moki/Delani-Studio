@@ -111,35 +111,26 @@ $(document).ready(function() {
     alert("Please write your name");
     return false;
    }
-   else{
-     true;
+   
 
  if(emailInput.value==""){
   alert("Please write your email");
   return false;
   }
-  else{
-    true;
-  }
+  
   if(userInput.value==""){
     alert("Please write your message");
     return false;
-    }
- else{
-    true;
-  } 
+    } 
+    alert("Dear "+nameInput.value+"\n Your message has been received.");
 
    
-   if(nameInput.value==true && emailInput.value==true){
-    alert("Dear "+nameInput.value+"\n Your message has been received.");
-    return false;
-  }alert('Invalid')
-    
+ 
     
 }
     
 
- }
+ 
 
 
  //if(d==5 && gender=="female"){
