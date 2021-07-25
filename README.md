@@ -1,13 +1,19 @@
-# My Portfolio
-#### This project best describes my software development work, Date of current version:11/07/2021
+# DELANI STUDIO
+#### This project happens to be a portfolio about DELANI STUDIO,a software development company,highlighting web development services offered. 
+Date of current version:25/07/2021
 #### Done by Esther Moki
 ## Description
-This is a portfolio that describes who Esther Moki is as a person and also my career as an upcoming 
- full-stack web developer.
+This project happens to be a portfolio about DELANI STUDIO-a software development company-that best describes their web development work,among other web design development services offered. 
 ## Setup/Installation Requirement
-Clone this repo to your desktop and run ubuntu to install all the dependencies.
+1.Clone this repo to your documents folder
+2.Run ubuntu to install all the dependencies.
 ## Technologies Used
-Languages used:Html and CSS.I also used Html in animating some parts.
+Languages used include:
+1.Html
+2.CSS
+3.JavaScript
+4.Jquery
 ## Support and contact details
-If you run into any issues or have questions, ideas or concerns you can contact me or make a contribution to the code
+If you run into any issues or have questions, ideas,concerns or even want to make a contribution to the code,you can drop me an email on esthermoki@student.moringaschool.com.
 ### License
+MIT Copyright 2021 Esther Moki
