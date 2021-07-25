@@ -1,5 +1,5 @@
 *{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Open Sans', sans-serif;;
 }
 /********************** beginning of top part *****************************/
 .top-part{
@@ -108,7 +108,7 @@ h5{
   justify-content: center;
   opacity: 0;
   color:#ffffff;
-  padding-top: 22%;
+  padding-top: 18%;
 } 
 .partTwo{
   display: flex;
@@ -137,7 +137,7 @@ h5{
   justify-content: center;
   opacity: 0;
   color:#ffffff;
-  padding-top: 25%;
+  padding-top: 20%;
   padding-bottom: 10%;
 }
 /******************************* end of portfolio part *********************************/
@@ -164,24 +164,33 @@ input{
   background: none;
   padding: 7px;
   width: 360px;
-  color: #ffffff !important;
   border:3px solid #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
 }
 label{
   display: block;
-  margin-right: 540px;
+  margin-right: 430px;
 }
 #usertext{
-  padding-left: 350px;
-  padding-right: 350px;
-  padding-bottom: 100px;
-  background: none;
+  width: 600px;
+  height: 200px;
   border: 3px solid #ffffff;
+  border-radius: 10px 10px 10px 10px;
   margin-bottom: 2%;
-  color: #000000;
+  outline: none;
 }
 .social{
   text-align: center;
   padding-bottom: 3%;
+}
+button{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  border-radius: 10px 10px 10px 10px;
+  background: #E79C11;
 }
 /******************************* end of contact us part *****************************/
