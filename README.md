@@ -5,8 +5,12 @@ Date of current version:25/07/2021
 ## Description
 This project happens to be a portfolio about DELANI STUDIO-a software development company-that best describes their web development work,among other web design development services offered. 
 ## Setup/Installation Requirement
-1.Clone this repo to your documents folder
+1.Clone this repo to your documents folder.
 2.Run ubuntu to install all the dependencies.
+3.Open the project on your VS code editor.
+4.Lastly open the project on live server.
+### Known Bugs
+There are no known bugs yet.
 ## Technologies Used
 Languages used include:
 1.Html
