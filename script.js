@@ -102,15 +102,53 @@ $(document).ready(function() {
 
 //form validation for the contact us part
  function validate(){
-   var nameInput=document.getElementById("username").value;
-   var emailInput=document.getElementById("useremail").value;
+   var nameInput=document.getElementById("username");
+   var emailInput=document.getElementById("useremail");
+   var userInput=document.getElementById("usertext");
    var form=document.getElementById("form");
+
+  if(nameInput.value==""){
+    alert("Please write your name");
+    return false;
+   }
+   else{
+     true;
+
+ if(emailInput.value==""){
+  alert("Please write your email");
+  return false;
+  }
+  else{
+    true;
+  }
+  if(userInput.value==""){
+    alert("Please write your message");
+    return false;
+    }
+ else{
+    true;
+  } 
+
+   
+   if(nameInput.value==true && emailInput.value==true){
+    alert("Dear "+nameInput.value+"\n Your message has been received.");
+    return false;
+  }alert('Invalid')
+    
+    
+}
+    
 
  }
 
 
-
-
+ //if(d==5 && gender=="female"){
+  //window.alert("Dear "+uname+"\n Your Akan name is "+gfemale[5]+" you were born on a"+days[5]);
+ // return false;
+ //if(d==6 && gender=="female"){
+ // window.alert("Dear "+uname+"\n Your Akan name is "+gfemale[6]+" you were born on a"+days[6]);
+ // return false;
+//}alert('Invalid')
 
 
 
