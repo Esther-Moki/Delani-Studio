@@ -23,7 +23,7 @@ Languages used include:
 * 3.JavaScript
 * 4.Jquery
 
-## Support and contact details
+## Support and Contact details
 If you run into any issues or have questions, ideas,concerns or even want to make a contribution to the code,you can drop me an email on esthermoki@student.moringaschool.com.
 
 ### License
