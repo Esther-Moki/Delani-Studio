@@ -211,11 +211,53 @@
 
  <!-------------------------------- end of portfolio part ------------------------->
 
+ <div class="container">
+   <div class="row">
+     <div class="col-md-2"></div>
+     <div class="col-md-8">
+       <form action="">
+         <label for="heroname">Input Super hero name</label>
+         <input type="text" name="heroname" id="heroname" class="form-control">
+         <label for="heroAge"> Input hero's Age</label>
+         <input type="number" name="heroAge" id="heroAge" class="form-control">
+         <label for="specialPower"></label>
+         <select name="specialPower" id="specialPower" class="form-control">
+           <option value=""></option>
+           <option value="spiderman">Spiderman</option>
+           <option value="ironman">Iron Man</option>
+           
+         </select>
+         <select name="weakness" id="weakness" class="form-control" type="text">
+           <option value=""></option>
+           <option value="darkness">Darkness</option>
+           <option value="storm">Storm</option>
+           <option value="Light"></option>
+         </select>
+       </form>
+     </div>
+     <div class="col-md-2"></div>
+   </div>
+ </div>
+
+
+<p>Congrats,you just created your own hero squad!</p>
+  <div class="container">
+    <h2>
+      Hello All
+    </h2>
+  </div>
+
+  <p>Name: </p>
+  <p>Age:</p>
+  <p>Powers: </p>
+  <p>Weakness: </p>
+  <button type="submit" class="btn btn-success" style="margin-bottom: 1%; color: #000000;">Submit</button>
+
  <!----------------------------- beginning of contact us part --------------------->
 
   <footer>
     <div class="contact">
-      <h4>CONTACT US</h4>
+      <h4 style="text-align: center;">CONTACT US</h4>
     </div>
     <form id="form" onsubmit=" return validate()">
       <div class="merge">
@@ -225,10 +267,11 @@
       <label for="">Write your message here</label>
       <input type="text" name="" id="usertext"><br>
       <button type="submit">SUBMIT</button>
+    
    </form>
   </footer>
 
-  <div class="social">
+  <div class="social" style="text-align: center;">
     <img src="./social_icons/twitter.png" alt="" srcset="">
     <img src="./social_icons/dribble.png" alt="" srcset="">
     <img src="./social_icons/facebook.png" alt="" srcset="">
@@ -250,3 +293,36 @@
  <!-------------------------------- end of contact us part ------------------------->
 </body>
 </html>
+
+
+
+
+{{#if endangered}}-->
+<!--        {{#each endangered  }} &lt;!&ndash;loop&ndash;&gt;-->
+<!--        <p>Current endangered animal sighted:</p>-->
+<!--        <p>{{ animalNameEndangered }}</p>-->
+<!--        <p>{{ animalAgeEndangered}}</p>-->
+<!--        <p>{{ animalHealth}}</p>-->
+<!--        {{/each}}-->
+<!--    {{else}}-->
+<!--        <p>No new sightings for endangered animals.</p>-->
+<!--    {{/if}}-->
+
+<!--    <h1>Sighting list</h1>-->
+<!--    {{#if sightings}}-->
+<!--        {{#each sightings }} &lt;!&ndash;loop&ndash;&gt;-->
+<!--        <p>Current animal sighted:</p>-->
+<!--        <p>{{ animalType }}</p>-->
+<!--        <p>{{ locationSpotted}}</p>-->
+<!--        <p>{{ rangerName }}</p>-->
+<!--        {{/each}}-->
+<!--    {{else}}-->
+<!--        <p>No new sightings.</p>-->
+<!--    {{/if}}-->
+
+
+
+
+<div class="col-md-3">
+
+</div>
